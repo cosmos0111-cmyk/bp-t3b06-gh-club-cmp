@@ -1,343 +1,238 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>공항 클럽 비교 - 프리미엄 라운지 & 비즈니스 클럽 분석</title>
-<meta name="description" content="전 세계 주요 공항 클럽을 비교 분석한 권위 있는 가이드. 라운지 시설, 서비스, 입장 조건, 가격 대비 가치를 데이터로 검증합니다. 인천, 나리타, 창이, 히드로 등 20개 이상 허브 공항 클럽 종합 평가.">
-<meta name="keywords" content="공항 클럽 비교, 공항 라운지 추천, 비즈니스 클럽, 프리미엄 라운지, 인천공항 라운지, 나리타 라운지, 창이 라운지, 히드로 라운지, 라운지 가격 비교, Priority Pass, LoungeKey">
-<meta name="author" content="Airport Club Analysis Lab">
-<meta name="robots" content="index, follow">
-<link rel="canonical" href="https://airport-hot-club.mapo-room-guide.xyz/">
-<meta property="og:title" content="공항 클럽 비교 - 프리미엄 라운지 & 비즈니스 클럽 분석">
-<meta property="og:description" content="전 세계 주요 공항 클럽을 비교 분석한 권위 있는 가이드. 라운지 시설, 서비스, 입장 조건, 가격 대비 가치를 데이터로 검증합니다.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://airport-hot-club.mapo-room-guide.xyz/">
-<meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'%3E%3Crect fill='%23000' width='1200' height='630'/%3E%3Ctext x='40' y='320' font-family='Impact' font-size='72' fill='%23ff3b00'%3EAIRPORT CLUB%3C/text%3E%3C/svg%3E">
-<meta property="og:locale" content="ko_KR">
-<meta property="og:site_name" content="공항 클럽 비교">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="공항 클럽 비교 - 프리미엄 라운지 & 비즈니스 클럽 분석">
-<meta name="twitter:description" content="전 세계 주요 공항 클럽을 비교 분석한 권위 있는 가이드. 라운지 시설, 서비스, 입장 조건, 가격 대비 가치를 데이터로 검증합니다.">
-<meta name="twitter:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'%3E%3Crect fill='%23000' width='1200' height='630'/%3E%3Ctext x='40' y='320' font-family='Impact' font-size='72' fill='%23ff3b00'%3EAIRPORT CLUB%3C/text%3E%3C/svg%3E">
-<meta name="bpaas-design-system" content="brutalist-avantgarde">
-<meta name="bpaas-design-theme" content="kr-neon-void">
-
-<script type="application/ld+json">{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "공항 클럽 비교",
-  "description": "전 세계 주요 공항 클럽을 비교 분석한 권위 있는 가이드. 라운지 시설, 서비스, 입장 조건, 가격 대비 가치를 데이터로 검증합니다.",
-  "url": "https://airport-hot-club.mapo-room-guide.xyz/",
-  "inLanguage": "ko",
-  "about": {
-    "@type": "Service",
-    "name": "공항 클럽 비교",
-    "description": "주요 국제공항 프리미엄 라운지 및 비즈니스 클럽에 대한 독립적인 비교 분석 서비스",
-    "provider": {
-      "@type": "Organization",
-      "name": "Airport Club Analysis Lab",
-      "telephone": "+82-10-6279-0862"
-    }
-  },
-  "mainEntity": [
-    {
-      "@type": "Airport",
-      "name": "인천국제공항",
-      "iataCode": "ICN"
-    },
-    {
-      "@type": "Airport",
-      "name": "나리타국제공항",
-      "iataCode": "NRT"
-    },
-    {
-      "@type": "Airport",
-      "name": "싱가포르 창이 공항",
-      "iataCode": "SIN"
-    },
-    {
-      "@type": "Airport",
-      "name": "런던 히드로 공항",
-      "iataCode": "LHR"
-    }
-  ]
-}</script>
-
-<style>
-/* ===== RESET & BASE ===== */
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth;font-size:100%}
-body{font-family:Impact,'Arial Black','system-ui',sans-serif;background:#000;color:#fff;line-height:1.2;overflow-x:hidden;padding:0}
-a{color:#ff3b00;text-decoration:none;border-bottom:3px solid transparent;transition:border-color .15s}
-a:hover{border-bottom-color:#ff3b00}
-ul{list-style:none}
-img{display:block;max-width:100%}
-/* ===== TYPOGRAPHY ===== */
-h1{font-size:clamp(3.2rem,10vw,6rem);text-transform:uppercase;letter-spacing:-0.03em;line-height:.9;font-weight:700}
-h2{font-size:clamp(2.4rem,6vw,4.2rem);text-transform:uppercase;letter-spacing:-0.02em;line-height:.95;font-weight:700}
-h3{font-size:clamp(1.8rem,4vw,2.8rem);text-transform:uppercase;letter-spacing:-0.02em;font-weight:700}
-p{font-family:'system-ui',sans-serif;font-size:1.125rem;line-height:1.5;font-weight:400;color:#ccc}
-/* ===== SPACING ===== */
-:root{--gap:48px;--pad:72px;--section-gap:120px}
-/* ===== BASE LAYOUT ===== */
-.page{max-width:100%;padding:var(--pad);display:flex;flex-direction:column;gap:var(--section-gap)}
-header{display:flex;justify-content:space-between;align-items:center;padding:0;border-bottom:4px solid #ff3b00;padding-bottom:24px}
-.logo{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:700;text-transform:uppercase;letter-spacing:-0.02em;color:#fff;border:none}
-.logo:hover{border:none;color:#ff3b00}
-/* ===== NAV ===== */
-nav{display:flex;gap:var(--gap)}
-nav a{font-family:Impact,sans-serif;font-size:1.6rem;text-transform:uppercase;letter-spacing:0.02em;color:#fff;border:none;padding:4px 0}
-nav a:hover{color:#ff3b00;border-bottom:4px solid #ff3b00}
-/* Hamburger – desktop hidden */
-.hamburger{display:none;flex-direction:column;gap:6px;cursor:pointer;background:transparent;border:none;padding:4px}
-.hamburger span{display:block;width:36px;height:4px;background:#ff3b00;transition:all .3s}
-/* ===== HERO ===== */
-.hero{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap);padding:var(--pad) 0;border-bottom:4px solid #fff;position:relative}
-.hero::before{content:'';position:absolute;top:-12px;right:-24px;width:180px;height:180px;background:#ff3b00;transform:rotate(12deg);opacity:.15;pointer-events:none}
-.hero-text{display:flex;flex-direction:column;gap:24px;justify-content:center}
-.hero-text h1 span{display:block;color:#ff3b00;font-size:clamp(3.8rem,12vw,7rem);margin-top:-0.1em}
-.hero-text p{font-size:1.35rem;max-width:36ch;border-left:6px solid #ff3b00;padding-left:24px;margin-top:12px}
-.hero-visual{display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 70% 30%,#ff3b00 0%,#000 70%);min-height:320px;transform:rotate(-3deg);border:4px solid #fff;padding:36px;position:relative;overflow:hidden}
-.hero-visual::after{content:'✈';font-size:12rem;opacity:.2;position:absolute;right:-20px;bottom:-20px;color:#ff3b00;transform:rotate(15deg)}
-.hero-visual .big-number{font-size:clamp(6rem,16vw,12rem);font-weight:700;color:#fff;text-shadow:8px 8px 0 #ff3b00;line-height:1}
-.cta-button{display:inline-block;background:#ff3b00;color:#000;padding:18px 48px;font-family:Impact,sans-serif;font-size:2rem;text-transform:uppercase;letter-spacing:0.03em;border:4px solid #fff;margin-top:12px;transition:all .12s;text-align:center;min-width:280px}
-.cta-button:hover{background:#000;color:#ff3b00;border-color:#ff3b00;transform:scale(1.02)}
-/* ===== SECTION COMMON ===== */
-section{padding:var(--pad) 0;border-top:4px solid #333;position:relative}
-.section-title{display:flex;align-items:center;gap:24px;margin-bottom:var(--gap)}
-.section-title span{display:inline-block;background:#ff3b00;color:#000;padding:6px 18px;font-size:1.2rem;font-weight:700}
-.section-title h2{margin:0}
-/* ===== COMPARISON GRID ===== */
-.comparison-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:var(--gap);margin-top:24px}
-.comparison-card{background:#111;border:4px solid #ff3b00;padding:36px;display:flex;flex-direction:column;gap:18px;transform:rotate(var(--r,0deg));transition:transform .2s}
-.comparison-card:nth-child(odd){--r:-1deg}
-.comparison-card:nth-child(even){--r:1.5deg}
-.comparison-card:hover{transform:rotate(0deg) scale(1.01);border-color:#fff}
-.comparison-card .airport{font-size:2.4rem;letter-spacing:-0.02em;color:#ff3b00;border-bottom:4px solid #ff3b00;padding-bottom:8px}
-.comparison-card .stats{display:flex;gap:12px;flex-wrap:wrap;font-family:'system-ui',sans-serif;font-size:1rem;color:#aaa}
-.comparison-card .stats span{border:2px solid #444;padding:4px 12px}
-.comparison-card .score{font-size:3.6rem;font-weight:700;color:#fff;line-height:1;margin-top:auto;text-align:right}
-.comparison-card .score small{font-size:1.2rem;color:#ff3b00;display:block}
-/* ===== REVIEWS ===== */
-.reviews-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--gap)}
-.review-card{background:#0a0a0a;border:4px solid #fff;padding:32px;display:flex;flex-direction:column;gap:16px;position:relative}
-.review-card::before{content:'“';font-size:6rem;color:#ff3b00;position:absolute;top:-20px;right:16px;opacity:.25;line-height:1}
-.review-card .stars{font-size:2rem;letter-spacing:4px;color:#ff3b00}
-.review-card .text{font-family:'system-ui',sans-serif;font-size:1.05rem;line-height:1.5;color:#ddd;flex:1}
-.review-card .author{display:flex;justify-content:space-between;align-items:center;border-top:2px solid #333;padding-top:12px;font-size:1rem;color:#888;font-weight:400}
-.review-card .author strong{color:#fff;font-weight:700}
-/* ===== FAQ ===== */
-.faq-list{display:flex;flex-direction:column;gap:12px;max-width:900px}
-.faq-item{border:3px solid #333;padding:24px 32px;background:#0a0a0a;transition:border-color .2s}
-.faq-item:hover{border-color:#ff3b00}
-.faq-item q{display:block;font-size:1.6rem;font-weight:700;color:#fff;margin-bottom:8px;font-style:normal}
-.faq-item p{font-size:1rem;color:#bbb;padding-left:16px;border-left:3px solid #ff3b00}
-/* ===== FOOTER ===== */
-footer{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:24px;padding:48px 0;border-top:4px solid #ff3b00;margin-top:var(--section-gap);font-family:'system-ui',sans-serif;font-size:.95rem;color:#888}
-footer .copyright{color:#666}
-footer .footer-links{display:flex;gap:32px}
-footer .footer-links a{color:#888;border:none;font-size:1rem}
-footer .footer-links a:hover{color:#ff3b00;border-bottom:2px solid #ff3b00}
-/* ===== HAMBURGER ACTIVE ===== */
-.nav-open nav{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:#000;padding:24px var(--pad);border-bottom:4px solid #ff3b00;z-index:100}
-.nav-open .hamburger span:nth-child(1){transform:rotate(45deg) translate(6px,6px)}
-.nav-open .hamburger span:nth-child(2){opacity:0}
-.nav-open .hamburger span:nth-child(3){transform:rotate(-45deg) translate(6px,-6px)}
-/* ===== RESPONSIVE ===== */
-@media (max-width:768px){
-  :root{--pad:32px;--gap:24px;--section-gap:72px}
-  .page{padding:var(--pad)}
-  header{position:relative;flex-wrap:wrap}
-  .hamburger{display:flex}
-  nav{display:none;width:100%;margin-top:12px;gap:12px}
-  nav a{font-size:1.4rem;padding:8px 0}
-  .hero{grid-template-columns:1fr;gap:32px}
-  .hero-text h1 span{font-size:clamp(3rem,10vw,5rem)}
-  .hero-visual{min-height:200px;transform:rotate(0deg)}
-  .hero-visual .big-number{font-size:clamp(4rem,12vw,8rem)}
-  .comparison-grid{grid-template-columns:1fr}
-  .comparison-card{transform:none!important}
-  .reviews-grid{grid-template-columns:1fr}
-  .faq-item q{font-size:1.3rem}
-  footer{flex-direction:column;text-align:center;gap:16px}
-  footer .footer-links{flex-wrap:wrap;justify-content:center;gap:16px}
-  .cta-button{min-width:auto;width:100%;font-size:1.6rem;padding:14px 24px}
-}
-</style>
-  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-charcoal-silver">
+    <meta name="generator" content="custom-cms-7g2x">
+    <title>공항 클럽 비교 — 마무리 순간까지 비교하는 자를 위한 결정 노트</title>
+    <meta name="description" content="공항 클럽을 몇 군데 돌아본 당신. 이제 정산 방식, 연장 처리, 나만의 기록까지 비교해 마지막 결정을 내릴 차례다. 인상은 의외로 끝에서 정해진다.">
+    <meta name="keywords" content="공항 클럽 비교, 공항 클럽 정산, 공항 클럽 연장, 공항 클럽 후기, 공항 클럽 선택">
+    <link rel="canonical" href="https://airport-hot-club.mapo-room-guide.xyz/">
+    <meta property="og:title" content="공항 클럽 비교 — 마무리 순간까지 비교하는 자를 위한 결정 노트">
+    <meta property="og:description" content="정산 방식, 연장 처리, 나만의 기록까지 비교해 마지막 결정을 내릴 차례다. 인상은 의외로 끝에서 정해진다.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+            background-color: #2c2c2e;
+            color: #e5e5e7;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .m-box-1iyd {
+            max-width: 768px;
+            margin: 0 auto;
+            padding: 20px 24px;
+            background: #1c1c1e;
+            min-height: 100vh;
+        }
+        .x-ico-tqob {
+            display: block;
+            margin: 0 auto 24px;
+            width: 48px;
+            height: 48px;
+            opacity: 0.8;
+        }
+        .n-btn-vfay {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #3a3a3c;
+            color: #e5e5e7;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .n-btn-vfay:hover {
+            background: #4a4a4c;
+        }
+        .k-img-qn78 {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin: 16px 0;
+            background: #2c2c2e;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+        }
+        .v-main-2n3x {
+            margin: 32px 0;
+        }
+        .v-main-2n3x a {
+            color: #a0a0b0;
+            text-decoration: underline;
+            transition: color 0.2s;
+        }
+        .v-main-2n3x a:hover {
+            color: #d0d0e0;
+        }
+        .v-main-2n3x-btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background: #48484a;
+            color: #ffffff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 12px;
+            transition: background 0.2s;
+        }
+        .v-main-2n3x-btn:hover {
+            background: #5a5a5c;
+        }
+        .t-foot-f6u4 {
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid #3a3a3c;
+            font-size: 13px;
+            color: #8e8e93;
+            text-align: center;
+        }
+        .v-top-0hv8 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0 20px;
+            border-bottom: 1px solid #3a3a3c;
+            margin-bottom: 24px;
+        }
+        .hamburger-menu {
+            width: 24px;
+            height: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            cursor: pointer;
+        }
+        .hamburger-menu span {
+            display: block;
+            height: 2px;
+            background: #e5e5e7;
+            border-radius: 1px;
+        }
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            margin-bottom: 12px;
+            color: #ffffff;
+            letter-spacing: -0.3px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 32px 0 14px;
+            color: #f0f0f5;
+        }
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 20px 0 10px;
+            color: #d1d1d6;
+        }
+        p {
+            margin-bottom: 14px;
+            color: #c7c7cc;
+            font-size: 15px;
+        }
+        ul {
+            margin: 12px 0 20px 20px;
+            color: #c7c7cc;
+        }
+        ul li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+        .card {
+            background: #2c2c2e;
+            border-radius: 12px;
+            padding: 18px;
+            margin-bottom: 16px;
+        }
+        @media (max-width: 768px) {
+            .m-box-1 {
+                padding: 16px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+  <meta property="og:url" content="https://airport-hot-club.mapo-room-guide.xyz/">
 </head>
 <body>
-<div class="page">
-
-<header>
-  <a href="/" class="logo">AirportClub</a>
-  <button class="hamburger" aria-label="메뉴 열기" onclick="this.parentElement.classList.toggle('nav-open')">
-    <span></span><span></span><span></span>
-  </button>
-  <nav>
-    <a href="#compare">비교</a>
-    <a href="#reviews">리뷰</a>
-    <a href="#faq">FAQ</a>
-    <a href="tel:+821062790862">문의</a>
-  </nav>
-</header>
-
-<main>
-  <!-- HERO -->
-  <section class="hero" id="home">
-    <div class="hero-text">
-      <h1>공항 클럽<br><span>비교 분석</span></h1>
-      <p>전 세계 20개 주요 허브 공항 프리미엄 라운지 및 비즈니스 클럽에 대한 독립적이고 데이터 기반의 비교 평가. 객관적 지표로 검증한 최상의 선택.</p>
-      <a href="#compare" class="cta-button">전체 랭킹 보기 →</a>
+<div class="m-box-1iyd">
+    <div class="v-top-0hv8">
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <a href="/" class="n-btn-vfay">홈</a>
     </div>
-    <div class="hero-visual">
-      <div class="big-number">23</div>
-    </div>
-  </section>
 
-  <!-- COMPARISON SECTION -->
-  <section id="compare">
-    <div class="section-title">
-      <span>TOP6</span>
-      <h2>허브 공항 클럽 랭킹</h2>
-    </div>
-    <div class="comparison-grid">
-      <div class="comparison-card">
-        <div class="airport">인천 ICN</div>
-        <div class="stats"><span>Matina Lounge</span><span>면세점 인접</span><span>24시간</span></div>
-        <div class="score">92 <small>/100</small></div>
-      </div>
-      <div class="comparison-card">
-        <div class="airport">창이 SIN</div>
-        <div class="stats"><span>SilverKris</span><span>나비 정원</span><span>샤워실</span></div>
-        <div class="score">89 <small>/100</small></div>
-      </div>
-      <div class="comparison-card">
-        <div class="airport">나리타 NRT</div>
-        <div class="stats"><span>United Club</span><span>스시 바</span><span>전망대</span></div>
-        <div class="score">87 <small>/100</small></div>
-      </div>
-      <div class="comparison-card">
-        <div class="airport">히드로 LHR</div>
-        <div class="stats"><span>BA Galleries</span><span>스파</span><span>패밀리룸</span></div>
-        <div class="score">85 <small>/100</small></div>
-      </div>
-      <div class="comparison-card">
-        <div class="airport">샤를드골 CDG</div>
-        <div class="stats"><span>Premier Lounge</span><span>샴페인</span><span>프라이빗 스위트</span></div>
-        <div class="score">84 <small>/100</small></div>
-      </div>
-      <div class="comparison-card">
-        <div class="airport">하네다 HND</div>
-        <div class="stats"><span>ANA Lounge</span><span>온천</span><span>로컬 푸드</span></div>
-        <div class="score">83 <small>/100</small></div>
-      </div>
-    </div>
-  </section>
+    <main class="v-main-2n3x">
+        <h1>공항 클럽 비교 — 마무리 순간까지 비교하는 자를 위한 결정 노트</h1>
 
-  <!-- REVIEWS SECTION -->
-  <section id="reviews">
-    <div class="section-title">
-      <span>UGC</span>
-      <h2>실제 이용자 리뷰</h2>
-    </div>
-    <div class="reviews-grid">
-      <div class="review-card">
-        <div class="stars">★★★★★</div>
-        <div class="text">인천공항 마티나 라운지는 규모와 서비스 모두 압도적입니다. 샤워 시설이 청결하고 라운지 내 업무 공간이 잘 갖춰져 있어 장시간 환승에도 최적입니다.</div>
-        <div class="author"><strong>서울여행자K</strong> <span>2024-12-15</span></div>
-      </div>
-      <div class="review-card">
-        <div class="stars">★★★★☆
+        <p>공항 근처 클럽을 세 군데쯤 돌아봤다면, 이제 분위기나 음악 말고 다른 걸 볼 타이밍이다. 나도 처음에는 인테리어나 베이스 음압 같은 걸로 고르려고 했는데, 정작 중요한 건 <strong>정산 방식</strong>이랑 <strong>연장할 때 매끄럽게 넘어가는 시스템</strong>이더라. 그리고 의외로 내 취향이 뭔지를 기록해두는 습관이 진짜 도움이 됐다.</p>
 
+        <p>이 페이지에서는 그동안 흩어져 있던 인상들을 <strong>마무리 단계에서 정리</strong>하고 비교하는 법을 이야기하려고 한다. 누군가는 여기가 그냥 리뷰 모음이라고 생각할 수도 있지만, 사실은 결정 직전에 봐야 하는 <strong>체크리스트</strong>에 가깝다. 결국 마지막에 어떤 디테일이 나를 붙잡는지가 중요하니까.</p>
 
+        <div class="card">
+            <h2>정산 방식 비교 — 현장 결제냐, 사전 예약이냐</h2>
+            <p>공항 클럽 중에는 현장에서만 결제받는 곳이 있고, 미리 예약하면 10~15% 할인을 해주는 곳도 있어. 예를 들어 A 클럽은 네이버 예약으로 미리 결제하면 웰컴 드링크를 무료로 제공해주고, B 클럽은 오히려 현장 결제 시에만 VIP 룸 업그레이드 혜택을 준다. 이걸 모르고 가면 같은 돈을 쓰고도 전혀 다른 경험을 하게 되는 거지.</p>
+            <p>또 하나 중요한 건 <strong>환불 규정</strong>이야. 몇 군데는 당일 취소해도 페널티가 없는 반면, 어떤 곳은 3시간 전까지 취소해야 전액 환불이 가능해. 공항 근처는 변수가 많으니까 이 부분을 꼭 확인하고 비교하는 게 좋다. 나는 예약 후 비행기가 지연돼서 날려버린 적이 있어서 그 후로는 무조건 취소 규정을 먼저 보게 됐어.</p>
+        </div>
 
-<!-- PBN Recent Posts Feed Section -->
-<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
-  <div style="max-width:1100px;margin:0 auto">
-    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em">📝 최신 관련 포스트</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
-      
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⚖️ COMPARE</span>
-          <time datetime="2026-06-15">2026-06-15</time>
+        <div class="card">
+            <h2>연장 시스템 차이 — 시간당 계산인지, 블록 단위인지</h2>
+            <p>클럽마다 연장을 처리하는 방식이 제각각이다. 어떤 곳은 1시간 단위로 끊어서 깔끔하게 청구하고, 또 어떤 곳은 2시간 블록으로만 추가가 가능하다. 후자는 한 번 연장하면 금액이 꽤 커지니까, 원래 3시간 코스를 잡은 사람이 1시간만 더 있고 싶어도 2시간짜리를 결제해야 하는 상황이 생긴다.</p>
+            <p>나는 개인적으로 블록 단위 연장은 불만이 좀 있었어. 마지막 30분 정도는 이미 클럽 분위기가 정리되기 시작할 때라서, 그 시간까지 돈을 내는 게 아깝더라고. 반면 1시간 단위로 유연하게 연장되는 곳은 직원도 자연스럽게 “1시간 더 하실래요?”라고 물어봐 주는데, 이게 서비스의 질에서 느껴지는 차이야.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">공항 클럽 비교 vs 공항 클럽 비교 비교 — 어디가 더 좋을까? 비교 분석</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">아, 진짜... 2023년 봄, 서버실 온도가 평균 이상까지 치솟았습니다. 이날은 디자인팀에서 미리 출시를 위한 최종 테스트를 진행한 날이었죠. 그때는 다크소울 1편의 데모 버전이 출시 전에만 존재했거든요. ### 소제목#### 1. 기존 배치와 새로운 배치의 차이 #</p>
-      </div>
-      <a href="posts/compare-001-15oajxo.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-06-11">2026-06-11</time>
+
+        <h2>부대 서비스 비교 — 라커, 충전, Wi-Fi, 셔틀</h2>
+        <p>공항 클럽에서 의외로 큰 변수가 되는 게 락커 서비스야. 짐을 맡길 수 있냐 없냐에 따라 캐리어를 끌고 클럽 안에서 움직여야 하는 상황이 생기기도 한다. 어떤 곳은 무료 라커가 충분히 확보되어 있고, 어떤 곳은 유로로 제공하거나 아예 없다. 짐이 많을 땐 이게 진짜 결정타였어.</p>
+        <p>거기에 핸드폰 충전 시설도 빼먹을 수 없다. 공항 근처니까 배터리 소모가 빠른데, 클럽 안에 충전 스테이션이 있으면 심리적으로 편안해. 그리고 셔틀버스를 운영하는지도 체크해야 해. 늦은 시간에 택시 잡으려고 밖에 서 있는 것보다 셔틀이 대기해주는 게 훨씬 안전하고 편리하지.</p>
+
+        <div class="card">
+            <h2>상황별 분기 — 인원, 시점, 목적에 따라 달라지는 선택</h2>
+            <p>클럽 선택은 누구와 가는지에 따라 완전히 달라진다. 혼자 가는 경우에는 조용한 라운지형 공간이 더 맞고, 둘이 가는 경우에는 프라이빗 룸이 확보되는 곳을 우선순위로 두게 돼. 단체인 경우에는 룸 대여보다는 홀 좌석을 묶는 편이 더 경제적인데, 이건 인원 수에 따라 급격히 달라지니까 예약할 때 꼭 물어보길 추천한다.</p>
+            <p>시간대도 중요해. 저녁 8시 이전에는 공간이 한가해서 서비스가 빠르고, 10시가 넘으면 갑자기 붐비면서 직원들이 바빠져서 응대가 느려지기 시작한다. 내 경험으로는 일찍 가서 템프를 잡고, 피크 타임에는 이미 자리잡은 상태로 즐기는 게 가장 베스트다. 늦게 가면 대기줄 생기는 건 물론이고, 원하는 룸이 마감나는 경우도 많아.</p>
         </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">공항 클럽 비교 경험자에게 물어본 현실적인 판단 기준</h4>
-        <h3>포스트 DNA d537f72c #### 제목: 창작한 제목: "클릭! 당신의 글룸헤이븐 클래스 카드 선택을 결정짓는 스탯 차이는?" <strong>[POST DNA d537f72c]</strong> 아, 진짜... 이 주제에 대한 자세한 정보를 찾으셨네요. 여기 몇 가지 중요한 점들을</h3>
-      </div>
-      <a href="posts/interview-001-1w5vp0x.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">애니 작화 마니아들이 강력히 추천하는 백링크 자동화 프로그램 스페셜 아카이브</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">애니 작화 마니아들이 강력히 추천하는 백링크 자동화 프로그램 스페셜 아카이브</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">90년대 셀 애니메이션 작화의 한계와 이와 관련된 아날로그 특수 효과의 역사</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">판타지 애니 설정 속 북유럽 세계수(Yggdrasil) 전승의 변형 패턴 고찰</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
-      <div>
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
-          <span>⭐ REVIEW</span>
-          <time datetime="2026-05-24">2026-05-24</time>
-        </div>
-        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">전설적인 애니메이터들의 타이밍 미학: 리미티드 3코마 작화법의 운동학</h4>
-        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
-      </div>
-      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
-    </article>
-    </div>
-  </div>
-</section>
+
+        <h2>내 취향 기록 — 비교가 쉬워지는 나만의 메모 방식</h2>
+        <p>여러 군데를 돌아다니다 보면 기억이 엇갈리기 시작한다. 어디는 음악이 좋았고, 어디는 조명이 따뜻했고, 어디는 직원 태도가 깔끔했는지 금방 잊어버리기 때문에, 나는 간단한 메모 앱에 <strong>날짜, 클럽명, 이용 시간, 결제 금액, 만족한 점, 불만이었던 점</strong> 6가지 항목을 딱 정리해둔다. 이게 쌓이면 나중에 정말 귀중한 데이터가 된다.</p>
+        <p>예를 들어 'A 클럽은 금요일 밤에 갔을 때 음향이 너무 컸다', 'B 클럽은 평일 오후에 조용해서 대화하기 좋았다' 같은 식으로. 이렇게 기록해두면 나중에 친구에게 추천하거나, 비슷한 성향의 사람과 갈 때 바로 꺼내볼 수 있어. 감이 아니라 데이터로 고르는 느낌이 들어서 의외로 뿌듯하기도 하고.</p>
+
+        <h2>최종 비교 체크리스트</h2>
+        <p>마지막으로 내가 공항 클럽을 고를 때 항상 따져보는 7가지 기준을 공유할게. 이걸로 마지막 결정이 한결 수월해졌다.</p>
+        <ul>
+            <li><strong>정산 투명성:</strong> 추가 요금이 예측 가능한가? 환경 없음 보증 시스템이 있는가?</li>
+            <li><strong>연장 유연성:</strong> 1시간 단위 연장 가능한가? 연장 시 할인 혜택이 있는가?</li>
+            <li><strong>공간 분리도:</strong> 홀과 룸의 소음 차단이 확실한가? 프라이빗 공간이 충분한가?</li>
+            <li><strong>부대 서비스:</strong> 짐 보관, 충전, Wi-Fi, 셔틀 중 몇 개가 무료인가?</li>
+            <li><strong>인원 대응:</strong> 혼자, 둘이, 단체에 따라 가격이나 공간 구성이 달라지는가?</li>
+            <li><strong>취소 규정:</strong> 당일 취소 가능한가? 공항 지연 상황을 보장하는가?</li>
+            <li><strong>내 기록:</strong> 이전에 갔을 때의 만족도가 어느 정도였는가? 다시 갈 의향이 있는가?</li>
+        </ul>
+        <p>이 항목들을 하나하나 체크해보면, 결국 나에게 맞는 클럽은 하나로 좁혀지게 돼. 감정에 휩쓸리지 않고도 선택할 수 있다는 게, 이 비교의 가장 큰 수확이다.</p>
+
+        <a href="/" class="v-main-2n3x-btn">홈으로 돌아가기</a>
+    </main>
+
+    <footer class="t-foot-f6u4">
+        <p>© 2025 Airport Club Guide. 이 페이지는 비교 경험을 바탕으로 작성되었습니다.</p>
+    </footer>
+</div>
 </body>
 </html>

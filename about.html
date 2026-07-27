@@ -1,361 +1,76 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" data-theme="sage" data-build="3f9b1c8e">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>정보 – 공항 클럽 비교 블로그</title>
-  <meta name="description" content="공항에서 시간 때우는 브로들을 위한 공항 클럽 비교 가이드! 라운지 vs 일반 클럽, 가성비, 서비스 차이를 진짜 리얼 후기로 알려준다. 전화 010-6279-0862.">
-  <meta name="keywords" content="공항 클럽 비교, 공항 라운지, 클럽 추천, 브로 리뷰, 공항 클럽">
-  <link rel="canonical" href="https://t3b06-gh-club-cmp.vercel.app/info">
-  <meta name="bpaas-design-system" content="brutalist-avantgarde">
-  <meta name="bpaas-design-theme" content="kr-acid-yellow">
-  <meta property="og:title" content="정보 – 공항 클럽 비교 블로그">
-  <meta property="og:description" content="브로들이 알려주는 공항 클럽 진짜 비교! 라운지 vs 클럽, 어디가 더 좋을까?">
+  <title>공항 클럽 비교 – 정보</title>
+  <meta name="description" content="공항 클럽 활용 시 필요한 상세 정보를 제공하고, 인원·시간대·목적별 확인 항목을 안내합니다. 처음 이용하는 방문자를 위한 체크리스트와 실전 팁을 포함합니다.">
+  <meta name="keywords" content="공항 클럽, 상세 정보, 이용 가이드, 체크리스트, 라운지 옵션">
+  <link rel="canonical" href="https://airport-hot-club.mapo-room-guide.xyz/about.html">
+  <meta property="og:title" content="공항 클럽 비교 – 정보">
+  <meta property="og:description" content="공항 클럽 선택을 위한 상세 항목과 상황별 체크리스트를 제공하는 공식 가이드 페이지입니다.">
+  <meta property="og:url" content="https://airport-hot-club.mapo-room-guide.xyz/about.html">
   <meta property="og:type" content="website">
-  <style>
-    /* Reset & base */
-    *, *::before, *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    html {
-      font-size: 16px;
-      scroll-behavior: smooth;
-    }
-    body {
-      font-family: 'Helvetica Neue', Arial, sans-serif;
-      background: #f5f0e8;
-      color: #1a1a1a;
-      line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-    /* Typography brutal */
-    h1 {
-      font-size: 2.8rem;
-      font-weight: 900;
-      text-transform: uppercase;
-      letter-spacing: -0.03em;
-      line-height: 1.1;
-      margin-bottom: 1rem;
-      border-left: 6px solid #f4d03f;
-      padding-left: 1rem;
-    }
-    h2 {
-      font-size: 2rem;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: -0.02em;
-      margin-top: 2.5rem;
-      margin-bottom: 1rem;
-      border-bottom: 3px solid #1a1a1a;
-      padding-bottom: 0.3rem;
-    }
-    h3 {
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-top: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      margin-bottom: 1rem;
-      font-size: 1.05rem;
-    }
-    a {
-      color: #1a1a1a;
-      text-decoration: underline wavy #f4d03f 2px;
-      text-underline-offset: 4px;
-    }
-    a:hover {
-      background: #f4d03f;
-      color: #000;
-      text-decoration: none;
-    }
-    /* Layout blocks */
-    header {
-      background: #1a1a1a;
-      color: #f5f0e8;
-      padding: 1rem 2rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      border-bottom: 4px solid #f4d03f;
-    }
-    .logo a {
-      font-size: 1.8rem;
-      font-weight: 900;
-      text-transform: uppercase;
-      text-decoration: none;
-      color: #f4d03f;
-      background: none;
-    }
-    .logo a:hover {
-      background: none;
-      color: #fff;
-    }
-    /* Hamburger checkbox method */
-    .nav-toggle {
-      display: none;
-    }
-    .nav-toggle-label {
-      display: none;
-      cursor: pointer;
-      font-size: 2rem;
-      color: #f4d03f;
-      user-select: none;
-      padding: 0 0.5rem;
-      line-height: 1;
-    }
-    nav {
-      display: flex;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-    }
-    nav a {
-      color: #f5f0e8;
-      text-decoration: none;
-      font-weight: 700;
-      text-transform: uppercase;
-      font-size: 0.9rem;
-      letter-spacing: 0.05em;
-      padding: 0.5rem 0;
-      border-bottom: 2px solid transparent;
-    }
-    nav a:hover {
-      background: none;
-      border-bottom-color: #f4d03f;
-    }
-    .tel-link {
-      background: #f4d03f;
-      color: #1a1a1a !important;
-      padding: 0.3rem 1rem !important;
-      border-radius: 4px;
-      font-weight: 900;
-    }
-    .tel-link:hover {
-      background: #fff;
-    }
-    /* Main content */
-    main {
-      max-width: 960px;
-      margin: 2rem auto;
-      padding: 0 1.5rem;
-      flex: 1;
-    }
-    /* Card grid */
-    .card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1.5rem;
-      margin: 2rem 0;
-    }
-    .card {
-      background: #fff;
-      border: 3px solid #1a1a1a;
-      padding: 1.5rem;
-      box-shadow: 6px 6px 0 #1a1a1a;
-      transition: transform 0.15s, box-shadow 0.15s;
-    }
-    .card:hover {
-      transform: translate(-3px, -3px);
-      box-shadow: 9px 9px 0 #1a1a1a;
-    }
-    .card h3 {
-      margin-top: 0;
-      font-size: 1.6rem;
-      border-bottom: 2px solid #f4d03f;
-      padding-bottom: 0.3rem;
-    }
-    .card p {
-      font-size: 0.95rem;
-    }
-    .card .value {
-      font-size: 2rem;
-      font-weight: 900;
-      color: #f4d03f;
-      background: #1a1a1a;
-      display: inline-block;
-      padding: 0.2rem 0.8rem;
-      margin: 0.5rem 0;
-    }
-    /* FAQ */
-    .faq {
-      background: #e8e0d0;
-      padding: 2rem;
-      margin: 2rem 0;
-      border: 3px solid #1a1a1a;
-    }
-    .faq-item {
-      margin-bottom: 1.5rem;
-    }
-    .faq-item h3 {
-      font-size: 1.2rem;
-      margin-top: 0;
-      cursor: pointer;
-      display: inline;
-      border-bottom: 2px dashed #f4d03f;
-    }
-    .faq-item p {
-      margin-top: 0.5rem;
-    }
-    /* CTA */
-    .cta {
-      background: #1a1a1a;
-      color: #f5f0e8;
-      padding: 2rem;
-      text-align: center;
-      margin: 2rem 0;
-    }
-    .cta a {
-      color: #f4d03f;
-      font-weight: 900;
-      font-size: 1.3rem;
-    }
-    /* Footer */
-    footer {
-      background: #1a1a1a;
-      color: #999;
-      text-align: center;
-      padding: 1rem;
-      border-top: 4px solid #f4d03f;
-      margin-top: auto;
-    }
-    footer a {
-      color: #f4d03f;
-    }
-    /* Responsive 768 */
-    @media (max-width: 768px) {
-      header {
-        flex-wrap: wrap;
-        padding: 0.8rem 1rem;
-      }
-      .nav-toggle-label {
-        display: block;
-      }
-      nav {
-        display: none;
-        width: 100%;
-        background: #1a1a1a;
-        padding: 1rem 0;
-        border-top: 2px solid #f4d03f;
-      }
-      #nav-toggle:checked ~ nav {
-        display: flex;
-        flex-direction: column;
-      }
-      nav ul {
-        flex-direction: column;
-        gap: 0;
-        width: 100%;
-      }
-      nav li {
-        border-bottom: 1px solid #333;
-      }
-      nav a {
-        display: block;
-        padding: 0.8rem 1.5rem;
-      }
-      .tel-link {
-        background: #f4d03f;
-        color: #1a1a1a !important;
-        margin: 0 1rem;
-        text-align: center;
-      }
-      h1 {
-        font-size: 2rem;
-      }
-      h2 {
-        font-size: 1.5rem;
-      }
-    }
-    /* Utility */
-    .highlight {
-      background: #f4d03f;
-      padding: 0.1rem 0.4rem;
-      font-weight: 800;
-    }
-  </style>
+  <meta property="og:image" content="https://airport-hot-club.mapo-room-guide.xyz/assets/og-image.jpg">
+  <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
   <header>
-    <div class="logo">
-      <a href="/">클럽COMP</a>
+    <div class="v-head-ccj2">
+      <a href="/" class="logo">Airport Club Guide</a>
+      <nav>
+        <a href="/" class="nav-link">홈</a>
+        <a href="/compare" class="nav-link">클럽 비교</a>
+        <a href="/info" class="nav-link">정보</a>
+        <a href="/faq" class="nav-link">FAQ</a>
+        <a href="/contact" class="nav-link">연락처</a>
+      </nav>
     </div>
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label">☰</label>
-    <nav>
-      <ul>
-        <li><a href="/">홈</a></li>
-        <li><a href="/comparison">비교</a></li>
-        <li><a href="/info" style="border-bottom: 2px solid #f4d03f;">정보</a></li>
-        <li><a href="/reviews">리뷰</a></li>
-        <li><a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <main>
-    <h1>🎯 진짜 정보만 쏙쏙</h1>
-    <p>브로들아, 공항에서 시간 때울 때 <span class="highlight">라운지 vs 일반 클럽</span> 고민되잖아? 여기 다 모았다. 가격, 서비스, 위치, 꿀팁까지 싹 다 파헤쳤다. 김해공항부터 인천공항까지, 내가 직접 발로 뛰고 겪은 썰 풀어준다.</p>
+  <section class="hero">
+    <h1>공항 클럽 상세 정보</h1>
+    <p>공항 클럽을 처음 이용하는 분들을 위한 종합 가이드입니다. 각 클럽의 서비스 특성, 이용 대상, 그리고 체크해야 할 핵심 항목을 체계적으로 정리했습니다.</p>
+    <p>이 페이지에서는 인원·시간대·목적별로 필요한 사전 확인 사항을 상세히 제시하여, 최적의 라운지를 선택하고 원활히 이용할 수 있도록 돕습니다.</p>
+    <a href="#checklist" class="t-btn-rk13">세부 체크리스트 확인</a>
+  </section>
 
-    <section>
-      <h2>📌 핵심 차이 3초 컷</h2>
-      <div class="card-grid">
-        <div class="card">
-          <h3>라운지</h3>
-          <p>무료 스낵, 맥주, 와인 기본. 조용하고 깔끔. PP카드나 티켓 있으면 무료. 없으면 1회 40~70만원.</p>
-          <div class="value">평점 8.5/10</div>
-        </div>
-        <div class="card">
-          <h3>일반 클럽</h3>
-          <p>입장료 2~5만원, 음료 따로. 신나게 놀기 좋음. 근데 비행기 놓칠 위험 있음 ㅋㅋ</p>
-          <div class="value">평점 7/10</div>
-        </div>
-        <div class="card">
-          <h3>하이브리드</h3>
-          <p>요새 생기는 라운지+클럽. 가격 10~15만원. 조용히 마시다가 음악 틀면 댄스 가능. 인천공항 터미널2에 하나 있음.</p>
-          <div class="value">평점 9/10</div>
-        </div>
-      </div>
-    </section>
+  <section class="t-main-71si" id="overview">
+    <h2>클럽 개요 및 운영 원칙</h2>
+    <p>공항 클럽은 여행 전후의 휴식, 업무, 사교 등 다양한 목적에 맞춰 설계된 프리미엄 라운지 공간입니다. 대부분의 클럽은 입장 전 사전 예약이 필요하며, 이용 가능한 시간대와 인원 제한이 명시되어 있습니다. 클럽마다 제공되는 서비스 수준이 다르므로, 사전에 제공되는 서비스 리스트를 확인하는 것이 중요합니다.</p>
+    <p>운영 원칙은 크게 세 가지로 구분됩니다. 첫째, 회원 등급 또는 티켓 종류에 따라 입장 조건이 달라집니다. 둘째, 라운지는 혼잡도를 최소화하기 위해 인원 제한을 두고 있으며, 특정 시간대에는 사전 예약이 필수입니다. 셋째, 각 클럽은 보안 및 위생 규정을 엄격히 적용하므로, 입장 시 신분증과 탑승권을 반드시 제시해야 합니다.</p>
+  </section>
 
-    <section>
-      <h2>📍 지역별 시그널 – 어디 갈까?</h2>
-      <p>내가 주말마다 공항 가서 직접 비교해봤다. 지역별로 분위기랑 서비스가 천지차이니까 참고해라.</p>
-      <div class="card-grid">
-        <div class="card">
-          <h3>인천공항</h3>
-          <p>터미널1 라운지 8개, 클럽 2개. <strong>마티니 라운지</strong>가 짱 – 뷰 맛집, 칵테일 퀄리티 좋음. 무료 와인도 괜찮. 클럽은 <strong>비트박스</strong> – 새벽 비행기 타기 전에 땀 빼기 좋아.</p>
-        </div>
-        <div class="card">
-          <h3>김해공항</h3>
-          <p>라운지 2개뿐. <strong>스카이허브</strong> 국제선 – 셀프바 작지만 한적함. 국내선 라운지는 좀 구림. 클럽은 없어서 아쉽. 대신 면세점 구경하다 비행기 타는 걸로.</p>
-        </div>
-        <div class="card">
-          <h3>제주공항</h3>
-          <p>라운지 1개, 클럽 0. <strong>제주항공 라운지</strong> – 감귤주스랑 오메기떡 준다. 취향 탈 수 있는데 무료면 괜찮지. 클럽은 근처에 없으니 미리 계획해.</p>
-        </div>
-      </div>
-    </section>
+  <section class="t-main-71si" id="criteria">
+    <h2>선택 기준 및 확인 항목</h2>
+    <p>클럽을 선택할 때 가장 먼저 고려해야 할 요소는 ‘인원’, ‘시간대’, 그리고 ‘목적’입니다. 인원이 많을 경우 대형 라운지를, 소규모 그룹이면 개인실이 있는 클럽을 선택하는 것이 효율적입니다. 또한, 조용한 업무 환경이 필요하면 조용한 구역을 제공하는 클럽을, 휴식이 주 목적이라면 스파 및 마사지 시설 유무를 확인해야 합니다.</p>
+    <p>시간대별로는 피크 타임(출발 2~3시간 전)과 비피크 타임(도착 직후)으로 구분해 각각의 혼잡도와 서비스 제공 상황을 파악합니다. 목적에 따라서는 무선 인터넷 속도, 전원 콘센트 제공 여부, 식음료 옵션(무료 고급 식음료 vs 유료 바) 등을 상세히 비교해야 합니다.</p>
+  </section>
 
-    <section>
-      <h2>🔍 디테일 정보 – 가격 & 서비스</h2>
-      <p>숫자로 보여준다. 진짜 돈 아끼고 싶으면 아래 표 참고해라. (2025년 1월 기준, 변동 가능)</p>
-      <div style="overflow-x: auto;">
-        <table style="width:100%; border-collapse: collapse; background: #fff; border: 3px solid #1a1a1a; margin: 1rem 0;">
-          <tr style="background: #1a1a1a; color: #f4d03f;">
-            <th style="padding: 0.7rem; border: 2px solid #1a1a1a;">항목</th>
-            <th style="padding: 0.7rem; border: 2px solid #1a1a1a;">라운지</th>
-            <th style="padding: 0.7rem; border: 2px solid #1a1a1a;">일반 클럽</th>
-          </tr>
-          <tr>
+  <section class="t-main-71si" id="checklist">
+    <h2>실제 이용 전 체크리스트</h2>
+    <p>1️⃣ <strong>예약 여부 확인</strong> – 사전 예약 시스템이 있는 경우, 웹사이트 또는 모바일 앱을 통해 예약을 완료하고, 예약 번호를 화면에 표시합니다.<br>
+    2️⃣ <strong>입장 조건 확인</strong> – 회원 등급, 티켓 클래스, 혹은 특정 항공사 제휴 여부에 따라 입장 가능 여부가 달라지므로, 해당 정보를 사전에 검증합니다.</p>
+    <p>3️⃣ <strong>서비스 제공 범위 검토</strong> – 무선 인터넷, 전원 콘센트, 프린터, 샤워 시설, 스파, 라운지 바 등 제공되는 서비스가 목적에 부합하는지 확인합니다.<br>
+    4️⃣ <strong>보안 및 위생 정책 숙지</strong> – 마스크 착용 규정, 체온 측정 절차, 손 소독제 비치 여부 등을 사전에 확인해 준비합니다.</p>
+    <a href="#faq" class="t-btn-rk13">FAQ 바로 보기</a>
+  </section>
+
+  <section class="t-main-71si" id="faq">
+    <h2>자주 묻는 질문</h2>
+    <p><strong>Q1. 예약 없이도 입장이 가능한 클럽이 있나요?</strong><br>
+    A1. 일부 라운지는 프리미엄 항공권 보유자에게는 사전 예약 없이 입장이 허용되지만, 일반 고객은 대부분 사전 예약이 필요합니다. 해당 클럽의 정책을 공식 웹사이트에서 확인하시기 바랍니다.</p>
+    <p><strong>Q2. 라운지 내에서 업무를 보려면 어떤 장비가 필요하나요?</strong><br>
+    A2. 최신 라운지는 고속 무선 인터넷과 충분한 전원 콘센트를 제공하므로, 노트북 및 충전기를 기본적으로 준비하면 대부분의 업무를 수행할 수 있습니다. 추가로 프린터 사용이 필요할 경우, 사전에 이용 가능 여부를 확인하시기 바랍니다.</p>
+    <p><strong>Q3. 어린이와 함께 이용할 수 있는 라운지가 있나요?</strong><br>
+    A3. 어린이 동반이 가능한 라운지는 제한적이며, 대부분은 별도의 어린이 전용 공간을 운영합니다. 이용 전 해당 라운지의 연령 제한 및 부대 시설을 반드시 확인하십시오.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Airport Club Guide. All rights reserved.</p>
+    <nav>
+      <a href="/privacy" class="nav-link">개인정보 처리방침</a>
+      <a href="/terms" class="nav-link">이용약관</a>
+    </nav>
+  </footer>
 </body>
 </html>
