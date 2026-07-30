@@ -1,254 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://airport-hot-club.mapo-room-guide.xyz/about.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-club.mapo-room-guide.xyz/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/</loc>
-    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://airport-hot-club.mapo-room-guide.xyz/about.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-club.mapo-room-guide.xyz/blog.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/compare-001-15oajxo.html</loc>
-    <lastmod>2026-06-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/interview-001-1w5vp0x.html</loc>
-    <lastmod>2026-06-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/juice-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/juice-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/normal-1.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/normal-2.html</loc>
-    <lastmod>2026-05-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/normal-3.html</loc>
-    <lastmod>2026-05-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260705-606.html</loc>
-    <lastmod>2026-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0385.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0386.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0387.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0388.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0389.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0390.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0391.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0392.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0393.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0394.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0395.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0396.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0397.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0398.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0399.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0400.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0401.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0402.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0403.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260721-0404.html</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0331.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0332.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0333.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0334.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0335.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0336.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0337.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0338.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0339.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0340.html</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/gemini-coverage-20260722-0341.html</loc>
-    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/interview-001-1w5vp0x.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/juice-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/juice-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/normal-1.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/normal-2.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://airport-hot-club.mapo-room-guide.xyz/posts/normal-3.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
